@@ -1,7 +1,11 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 section{
     height: 500px;
     background-color: white;
-
+    font-family: 'Poppins', sans-serif;
 }
 
 .hero{
@@ -42,8 +46,8 @@ h1{
 }
 
 .button{
-    width: 200px;
-    height: 50px;
+    width: 220px;
+    height: 65px;
     border-radius: 30px;
     background-color: coral;
     text-align: center;
