@@ -15,8 +15,10 @@ section{
 }
 
 footer{
-    height: 500px;
-    background-color: brown;
+    color: white;
+    background-color: #1c1d25;
+    text-align: center;
+    padding: 20px;
 }
 
 nav{
@@ -46,7 +48,6 @@ h2{
 }
 
 p{
-    margin: 0;
     font-size: 30px;
     font-weight: 300;
 }
