@@ -105,6 +105,12 @@ p{
     padding: 80px;
 }
 
+.sub-section-alternate{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .headshot-container{
     display: flex;
     align-items: center;
