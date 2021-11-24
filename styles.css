@@ -102,13 +102,14 @@ p{
 .sub-section{
     display: flex;
     justify-content: space-around;
-    padding: 80px;
+    padding: 4rem;
 }
 
 .sub-section-alternate{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 4rem;
 }
 
 .headshot-container{
@@ -119,4 +120,15 @@ p{
 .headshot{
     width: 300px;
     border-radius: 100%;
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(179, 177, 177);
 }
