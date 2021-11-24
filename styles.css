@@ -23,6 +23,7 @@ footer{
 
 nav{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -195,9 +196,29 @@ a{
         color: white;
         font-size: 30px;
         cursor: pointer;
+        margin: 20px;
+        align-self: flex-end;
     }
 
-    .navbar-items{
+    ul{
+        display: none;
+        background-color: #2b2c38;
+        margin: 0px;
+        padding: 5px;
+    }
+
+    ul.show{
+        display: block;   
+       }
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0px;
+        background-color: #2b2c38;
+    }
+
+    .logo{
         display: none;
     }
 }
